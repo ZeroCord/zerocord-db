@@ -1,0 +1,23 @@
+{
+  "name": "zerocord.db",
+  "version": "^1.0.5",
+  "description": "ZeroCord Database is a simple sqlite database that allows you to interact with databases with 0 knowledge.",
+  "main": "index.js",
+  "dependencies": {
+    "better-sqlite3": "^5.4.3",
+    "lodash": "4.17.15",
+    "discord.js": "^11.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node spec/test.js"
+  },
+  "keywords": [
+    "zerocord",
+    "database",
+    "sqlite3",
+    "storing"
+  ],
+  "author": "noahh69",
+  "license": "MIT"
+}
